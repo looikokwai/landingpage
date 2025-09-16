@@ -1,0 +1,2171 @@
+* {
+  box-sizing: border-box;
+}
+
+.desktopView {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #ffffff;
+  width: 1440px;
+  height: 9102px;
+  overflow: hidden;
+
+  .rectangle30 {
+    position: absolute;
+    top: 8230px;
+    left: 206px;
+    border-radius: 15px;
+    width: 1000px;
+    height: 200px;
+  }
+
+  .autoWrapper40 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    padding-right: -8px;
+    padding-left: -1px;
+
+    .sportsBettingSportsB3 {
+      letter-spacing: 0;
+      color: #000000;
+      font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 16px;
+    }
+
+    .sportsBettingSportsB2 {
+      letter-spacing: 0;
+      color: #000000;
+      font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .sportsBettingSportsB {
+      letter-spacing: 0;
+      color: #000000;
+      font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .latestWinnersLeaderb {
+      line-height: 30px;
+      letter-spacing: 0;
+      color: #a90000;
+      font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    .a5LionsMegaway {
+      line-height: 17px;
+      letter-spacing: 0;
+      color: #000000;
+      font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .popularGamesUserLove {
+      line-height: 24px;
+      letter-spacing: 0;
+      color: #000000;
+      font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .rectangle1 {
+      display: flex;
+      align-items: flex-start;
+      align-self: stretch;
+      margin-right: 8px;
+      margin-left: 1px;
+      box-shadow: 3px 3px 10px 0px #00000026;
+      background: #ffffff;
+      padding: 9px 115px 11px 100px;
+
+      .logo {
+        width: 250px;
+        height: 80px;
+      }
+
+      .menu {
+        display: flex;
+        align-items: center;
+        margin-top: 44px;
+        margin-left: 39px;
+
+        .home {
+          line-height: 22px;
+          letter-spacing: 0;
+          color: #a90000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 18px;
+          font-weight: 600;
+        }
+
+        .onlineSlots {
+          margin: 0px 0px 0px 20px;
+          line-height: 22px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 18px;
+        }
+
+        .promos {
+          margin: 0px 0px 0px 34px;
+          line-height: 22px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 18px;
+        }
+      }
+
+      .loginCta {
+        display: flex;
+        align-items: center;
+        margin-top: 29px;
+        margin-left: 88px;
+
+        .rectangle3 {
+          display: flex;
+          flex-grow: 1;
+          align-items: center;
+          border-radius: 50px;
+          padding: 10px 38px 10px 39px;
+
+          .logIn {
+            line-height: 20px;
+            letter-spacing: 0;
+            color: #a90000;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+          }
+        }
+      }
+
+      .rubyBtn2 {
+        display: flex;
+        align-items: center;
+        margin-top: 29px;
+        margin-left: 20px;
+        padding: 10px 22px 10px 23px;
+        background-image: url(../image/mfmf52qf-1klpbex.png),
+          url(https://image/70117e1af97c000bf317699c72b38c8aef1ca2ac.png);
+        background-position: center, center;
+        background-size: cover, cover;
+        background-repeat: no-repeat;
+
+        .signUp {
+          line-height: 20px;
+          letter-spacing: 0;
+          color: #ffffff;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 16px;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .bannerSelection {
+      display: flex;
+      align-items: flex-start;
+      align-self: stretch;
+      justify-content: space-between;
+      margin: 1px 8px 0px 1px;
+      padding: 265px 311px 23px 1026px;
+      min-width: 1440px;
+      background-image: url(../image/mfmf52qf-upl6qos.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      .rectangle9 {
+        border-radius: 100px;
+        background: #ffffffbf;
+        width: 12px;
+        height: 12px;
+      }
+
+      .rectangle12 {
+        border-radius: 100px;
+        background: #f5c600;
+        width: 35px;
+        height: 12px;
+      }
+    }
+
+    .section01 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-self: stretch;
+      margin-right: 8px;
+      margin-left: 1px;
+      padding: 25px 220px 32px;
+
+      .welcomeToSqueenvipTr {
+        margin: 0px 0px 0px 165px;
+        line-height: 20px;
+        letter-spacing: 0;
+        color: #000000;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .howToRegister {
+        margin: 7px 0px 0px 377px;
+        line-height: 30px;
+        letter-spacing: 0;
+        color: #a90000;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+      }
+
+      .autoWrapper {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        margin-top: 25px;
+        padding-right: 0;
+        padding-left: 0;
+
+        .makeADepositClaimYou {
+          margin: 1px 0px 0px;
+          width: 198px;
+          text-align: center;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+        }
+
+        .depositIcon01 {
+          width: 80px;
+          height: 80px;
+        }
+
+        .rectangle5 {
+          position: relative;
+          border: 2px solid #d8ac01;
+          border-radius: 10px;
+          width: 233px;
+          height: 150px;
+
+          .registerIcon01 {
+            position: absolute;
+            top: 14px;
+            left: 74px;
+            width: 80px;
+            height: 80px;
+          }
+
+          .clickSignUpFillInYou {
+            position: absolute;
+            top: 95px;
+            left: 15px;
+            width: 198px;
+            height: 34px;
+            text-align: center;
+            letter-spacing: 0;
+            color: #000000;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+          }
+
+          .rectangle16 {
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            opacity: 0.5;
+            border: 2px solid #d8ac01;
+            border-radius: 10px;
+            width: 233px;
+            height: 150px;
+            filter: blur(2px);
+          }
+        }
+
+        .howToRegister02 {
+          position: relative;
+          width: 233px;
+          height: 150px;
+
+          .rectangle4 {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid #f5c600;
+            border-radius: 10px;
+            padding: 14px 16px 17px 15px;
+            width: 233px;
+            height: 150px;
+          }
+
+          .rectangle17 {
+            position: absolute;
+            top: 0;
+            left: 1px;
+            opacity: 0.5;
+            border: 2px solid #f5c600;
+            border-radius: 10px;
+            width: 233px;
+            height: 150px;
+            filter: blur(2px);
+          }
+        }
+
+        .howToRegister03 {
+          position: relative;
+          width: 233px;
+          height: 150px;
+
+          .rectangle15 {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid #a90000;
+            border-radius: 10px;
+            padding: 14px 16px 17px 15px;
+            width: 233px;
+            height: 150px;
+          }
+
+          .rectangle18 {
+            position: absolute;
+            top: 0;
+            left: 1px;
+            opacity: 0.5;
+            border: 2px solid #a90000;
+            border-radius: 10px;
+            width: 233px;
+            height: 150px;
+            filter: blur(2px);
+          }
+        }
+
+        .howToRegister04 {
+          position: relative;
+          width: 233px;
+          height: 150px;
+
+          .rectangle14 {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 1px;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid #8b0000;
+            border-radius: 10px;
+            padding: 14px 15px 17px 16px;
+            width: 233px;
+            height: 150px;
+          }
+
+          .rectangle19 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+            border: 2px solid #8b0000;
+            border-radius: 10px;
+            width: 233px;
+            height: 150px;
+            filter: blur(2px);
+          }
+        }
+      }
+
+      .progressiveBar {
+        margin-top: 16px;
+        margin-left: 106px;
+        width: 788px;
+        height: 20px;
+      }
+    }
+
+    .gamesSection {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-self: stretch;
+      margin-right: 8px;
+      margin-left: 1px;
+      padding: 30px 201px 30px 220px;
+
+      .pragmaticPlay2 {
+        opacity: 0.5;
+        margin: 3px 0px 0px;
+        line-height: 15px;
+        letter-spacing: 0;
+        color: #000000;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      }
+
+      .a5LionsMegaway3 {
+        margin: 5px 0px 0px;
+        line-height: 17px;
+        letter-spacing: 0;
+        color: #000000;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .a5LionsMegaway2 {
+        margin: 0px 0px 0px 20px;
+        line-height: 17px;
+        letter-spacing: 0;
+        color: #000000;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .rTp9636 {
+        line-height: 12px;
+        letter-spacing: 0;
+        color: #ffffff;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+      }
+
+      .autoWrapper4 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        padding-right: 109px;
+        padding-left: 0;
+      }
+
+      .rectangle21 {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px 0px #00000040;
+        background: #ff0000;
+        padding: 4px 14px;
+      }
+
+      .group19 {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        justify-content: space-between;
+        margin-right: 1px;
+        padding-right: 20px;
+        min-width: 1018px;
+
+        .pragmaticPlay {
+          opacity: 0.5;
+          line-height: 15px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+
+        .group3 {
+          display: flex;
+          flex-grow: 1;
+          align-items: center;
+          box-shadow: 2px 2px 4px 0px #00000040;
+        }
+
+        .autoWrapper5 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+
+          .autoWrapper2 {
+            display: flex;
+            align-items: center;
+            align-self: stretch;
+            justify-content: space-between;
+            margin-top: 13px;
+            padding-right: 0;
+            padding-left: 0;
+
+            .image2 {
+              display: flex;
+              align-items: flex-start;
+              border-radius: 10px;
+              padding: 5px 115px 125px 5px;
+              background-image: url(../image/mfmf52qf-2vij9k6.png);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+
+            .image3 {
+              display: flex;
+              align-items: flex-start;
+              border-radius: 10px;
+              padding: 5px 114px 125px 6px;
+              background-image: url(../image/mfmf52qf-j8u55l1.png);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+          }
+
+          .autoWrapper3 {
+            display: flex;
+            align-items: flex-start;
+            align-self: stretch;
+            margin-top: 5px;
+            padding-right: 0;
+            padding-left: 0;
+
+            .rectangle212 {
+              display: flex;
+              align-items: flex-start;
+              margin-left: 34px;
+              border-radius: 100px;
+              background: #ff0000;
+              padding: 3px 8px 5px;
+            }
+          }
+        }
+
+        .autoWrapper7 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+          margin-top: 37px;
+
+          .image4 {
+            display: flex;
+            align-items: flex-start;
+            align-self: stretch;
+            border-radius: 10px;
+            padding: 5px 114px 125px 6px;
+            background-image: url(../image/mfmf52qf-1wnb0sc.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+
+          .autoWrapper6 {
+            display: flex;
+            align-items: flex-start;
+            align-self: stretch;
+            justify-content: space-between;
+            margin-top: 5px;
+            padding-right: 0;
+            padding-left: 0;
+
+            .rectangle213 {
+              display: flex;
+              align-items: flex-start;
+              border-radius: 100px;
+              background: #ff0000;
+              padding: 3px 8px 5px;
+            }
+          }
+        }
+
+        .autoWrapper8 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+          margin-top: 37px;
+
+          .image5 {
+            display: flex;
+            align-items: flex-start;
+            align-self: stretch;
+            border-radius: 10px;
+            padding: 5px 114px 125px 6px;
+            background-image: url(../image/mfmf52qf-czgqmh0.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        }
+
+        .autoWrapper9 {
+          position: relative;
+          margin-top: 37px;
+          width: 118px;
+          height: 190px;
+
+          .maskGroup {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            align-items: flex-start;
+            padding: 5px 32px 165px 6px;
+            width: 118px;
+            height: 190px;
+            background-image: url(../image/mfmf52q1-za794a3.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+
+          .group40 {
+            position: absolute;
+            top: 57px;
+            right: -20px;
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+
+      .group20 {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        justify-content: space-between;
+        margin-top: 33px;
+        padding-right: 21px;
+        min-width: 1019px;
+
+        .autoWrapper12 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+
+          .autoWrapper10 {
+            display: flex;
+            align-items: center;
+            align-self: stretch;
+            justify-content: space-between;
+            margin-top: 13px;
+            padding-right: 0;
+            padding-left: 0;
+
+            .group8 {
+              display: flex;
+              align-items: flex-start;
+              border-radius: 10px;
+              padding: 5px 115px 125px 5px;
+              background-image: url(../image/mfmf52qf-12aa12d.png);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+
+            .group9 {
+              display: flex;
+              align-items: flex-start;
+              border-radius: 10px;
+              padding: 5px 115px 125px 5px;
+              background-image: url(../image/mfmf52qf-wtplj3e.png);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+          }
+
+          .autoWrapper11 {
+            display: flex;
+            align-items: flex-start;
+            align-self: stretch;
+            margin-top: 5px;
+            padding-right: 74px;
+            padding-left: 0;
+
+            .rectangle214 {
+              display: flex;
+              align-items: flex-start;
+              margin-left: 34px;
+              border-radius: 100px;
+              background: #a90000;
+              padding: 3px 10px 5px 11px;
+            }
+          }
+        }
+
+        .autoWrapper14 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+          margin-top: 37px;
+
+          .group10 {
+            display: flex;
+            align-items: flex-start;
+            align-self: stretch;
+            border-radius: 10px;
+            padding: 5px 115px 125px 5px;
+            background-image: url(../image/mfmf52qf-is5xpzb.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+
+          .autoWrapper13 {
+            display: flex;
+            align-items: flex-start;
+            align-self: stretch;
+            justify-content: space-between;
+            margin-top: 5px;
+            padding-right: 0;
+            padding-left: 0;
+
+            .rectangle215 {
+              display: flex;
+              align-items: flex-start;
+              border-radius: 100px;
+              background: #a90000;
+              padding: 3px 10px 5px 11px;
+            }
+          }
+
+          .pragmaticPlay3 {
+            opacity: 0.5;
+            line-height: 17px;
+            letter-spacing: 0;
+            color: #000000;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+          }
+        }
+
+        .autoWrapper15 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+          margin-top: 37px;
+
+          .group11 {
+            display: flex;
+            align-items: flex-start;
+            align-self: stretch;
+            border-radius: 10px;
+            padding: 5px 115px 125px 5px;
+            background-image: url(../image/mfmf52qf-1wnb0sc.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        }
+
+        .autoWrapper16 {
+          position: relative;
+          margin-top: 37px;
+          width: 118px;
+          height: 190px;
+
+          .maskGroup2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 118px;
+            height: 190px;
+          }
+
+          .group39 {
+            position: absolute;
+            top: 55px;
+            right: -21px;
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+
+      .bestLiveCasinoInTown {
+        margin: 38px 0px 0px;
+        line-height: 24px;
+        letter-spacing: 0;
+        color: #000000;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      .image8 {
+        margin-top: 18px;
+        border-radius: 10px;
+        width: 200px;
+        height: 150px;
+      }
+
+      .autoWrapper18 {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        justify-content: space-between;
+        padding-right: 819px;
+        padding-left: 0;
+
+        .autoWrapper17 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+          margin-top: 5px;
+        }
+
+        .gifIconHot1 {
+          width: 43px;
+          height: 40px;
+        }
+      }
+    }
+
+    .group38 {
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      align-self: stretch;
+      padding: 30px 231px 30px 220px;
+
+      .autoWrapper20 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+
+        .autoWrapper19 {
+          display: flex;
+          align-items: center;
+          align-self: stretch;
+          justify-content: space-between;
+          margin-top: 8px;
+          padding-right: 0;
+          padding-left: 0;
+
+          .a901D79F67E24621 {
+            width: 165px;
+            height: 75px;
+          }
+        }
+      }
+
+      .a901D79F67E24623 {
+        margin-top: 32px;
+        margin-left: 20px;
+        width: 165px;
+        height: 75px;
+      }
+
+      .maskGroup3 {
+        margin-top: 32px;
+        margin-left: 20px;
+        width: 73px;
+        height: 75px;
+      }
+
+      .group41 {
+        position: absolute;
+        top: 80px;
+        left: 1203px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    .group26 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-self: stretch;
+      margin-right: 4px;
+      margin-left: 5px;
+      padding: 50px 221px;
+
+      .rM5000 {
+        margin: 0px 0px 0px 166px;
+        line-height: 17px;
+        letter-spacing: 0;
+        color: #000000;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+      }
+
+      .gateOfOlympus {
+        line-height: 17px;
+        letter-spacing: 0;
+        color: #000000;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+      }
+
+      .autoWrapper21 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        padding-right: 0;
+        padding-left: 0;
+
+        .rectangle49 {
+          display: flex;
+          align-items: center;
+          border-radius: 10px;
+          background: #f5f5f5;
+          padding-right: 16px;
+
+          .rectangle50 {
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            background: #d9d9d9;
+            padding: 17px 20px 16px;
+
+            .latestWinner {
+              width: 116px;
+              height: 21px;
+              text-align: center;
+              letter-spacing: 0;
+              color: #000000;
+              font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 14px;
+              font-weight: 700;
+            }
+          }
+
+          .highRoller {
+            margin: 0px 0px 0px 24px;
+            width: 116px;
+            height: 21px;
+            text-align: center;
+            letter-spacing: 0;
+            color: #000000;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+          }
+
+          .wagerContest {
+            margin: 0px 0px 0px 10px;
+            width: 116px;
+            height: 21px;
+            text-align: center;
+            letter-spacing: 0;
+            color: #000000;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+          }
+        }
+      }
+
+      .rectangle51 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        margin-top: 21px;
+        border-radius: 15px 15px 0px 0px;
+        background: #d9d9d9;
+        padding: 16px 49px 17px 29px;
+
+        .player {
+          margin: 0px 0px 0px 188px;
+          line-height: 17px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+        }
+
+        .betAmount {
+          margin: 0px 0px 0px 176px;
+          line-height: 17px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+        }
+
+        .multiplier {
+          margin: 0px 0px 0px 112px;
+          line-height: 17px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+        }
+
+        .winning {
+          margin: 0px 0px 0px 129px;
+          line-height: 17px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+        }
+      }
+
+      .rectangle52 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        background: #f5f5f5;
+        padding: 14px 49px 14px 29px;
+
+        .jaG8 {
+          margin: 0px 0px 0px 114px;
+          line-height: 17px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+        }
+
+        .a095X {
+          margin: 0px 0px 0px 132px;
+          line-height: 17px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+        }
+
+        .aRm9750 {
+          margin: 0px 0px 0px 153px;
+          line-height: 17px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+        }
+      }
+
+      .rectangle53 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        background: #fdfdfd;
+        padding: 14px 49px 14px 29px;
+
+        .evEe {
+          margin: 0px 0px 0px 97px;
+          line-height: 17px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+        }
+
+        .a800X {
+          margin: 0px 0px 0px 126px;
+          line-height: 17px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+        }
+
+        .aRm90000 {
+          margin: 0px 0px 0px 139px;
+          line-height: 17px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .rectangle46 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-self: stretch;
+      margin-right: 4px;
+      margin-left: 5px;
+      background: #fdfdfd;
+      padding: 49px 190px 58px 173px;
+
+      .rectangle24 {
+        border-radius: 15px;
+        width: 500px;
+        height: 250px;
+      }
+
+      .rectangle35 {
+        display: flex;
+        align-items: center;
+        border-radius: 100px;
+        background: #f5c600;
+        padding: 12px 16px 13px 17px;
+
+        .playNow {
+          width: 117px;
+          height: 21px;
+          text-align: center;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 18px;
+          font-weight: 800;
+        }
+      }
+
+      .sportsBettingSportsB4 {
+        width: 500px;
+        height: 180px;
+        letter-spacing: 0;
+        color: #000000;
+        font-size: 0;
+      }
+
+      .sQueenvipMalaysiaTop {
+        line-height: 39px;
+        letter-spacing: 0;
+        color: #a90000;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+      }
+
+      .findTopCasinoGamesAt {
+        margin: 25px 0px 0px 15px;
+        width: 1046px;
+        height: 171px;
+        text-align: center;
+        letter-spacing: 0;
+        color: #000000;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+      }
+
+      .autoWrapper22 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        margin-top: 25px;
+        padding-right: 16px;
+        padding-left: 15px;
+
+        .maskGroup4 {
+          width: 500px;
+          height: 250px;
+        }
+      }
+
+      .autoWrapper23 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        margin-top: 15px;
+        padding-right: 16px;
+        padding-left: 15px;
+      }
+
+      .autoWrapper24 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        padding-right: 366px;
+        padding-left: 7px;
+      }
+
+      .autoWrapper25 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        margin-top: 25px;
+        padding-right: 16px;
+        padding-left: 15px;
+      }
+
+      .autoWrapper26 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        margin-top: 25px;
+        padding-right: 16px;
+        padding-left: 15px;
+      }
+
+      .autoWrapper27 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        margin-top: 25px;
+        padding-right: 366px;
+        padding-left: 7px;
+      }
+
+      .autoWrapper28 {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        margin-top: 25px;
+        padding-right: 16px;
+        padding-left: 15px;
+
+        .rectangle28 {
+          border-radius: 15px;
+          background: #d9d9d9;
+          width: 500px;
+          height: 250px;
+        }
+      }
+    }
+
+    .ourPartnership {
+      display: flex;
+      align-items: flex-start;
+      align-self: stretch;
+      justify-content: space-between;
+      margin-right: 4px;
+      margin-left: 5px;
+      padding: 30px 200px;
+      min-width: 1440px;
+
+      .a901D79F67E246212 {
+        width: 189px;
+        height: 60px;
+      }
+
+      .autoWrapper29 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+
+        .logo2 {
+          display: flex;
+          align-items: center;
+          align-self: stretch;
+          margin-top: 44px;
+          padding: 44px 21px 46px 20px;
+        }
+      }
+
+      .logo3 {
+        display: flex;
+        align-items: center;
+        margin-top: 74px;
+        padding: 44px 21px 46px 20px;
+      }
+
+      .logo4 {
+        display: flex;
+        align-items: center;
+        margin-top: 74px;
+        padding: 25px 12px 26px 11px;
+
+        .a901D79F67E246213 {
+          width: 207px;
+          height: 99px;
+        }
+      }
+
+      .logo5 {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 74px;
+        padding: 44px 12px 40px 11px;
+
+        .a901D79F67E246214 {
+          width: 207px;
+          height: 66px;
+        }
+      }
+    }
+
+    .testimonial {
+      position: relative;
+      margin-left: 5px;
+      width: 1440px;
+      height: 430px;
+
+      .bannerSelection2 {
+        display: flex;
+        position: absolute;
+        top: 90px;
+        left: 214px;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-radius: 10px;
+        background: #f5f5f5;
+        padding: 269px 447px 29px 463px;
+        width: 1013px;
+        height: 310px;
+
+        .rectangle92 {
+          border-radius: 100px;
+          background: #d9d9d9;
+          width: 12px;
+          height: 12px;
+        }
+
+        .rectangle122 {
+          border-radius: 100px;
+          background: #a90000;
+          width: 35px;
+          height: 12px;
+        }
+      }
+
+      .group412 {
+        position: absolute;
+        top: 214px;
+        left: 1207px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .group35 {
+        display: flex;
+        position: absolute;
+        top: 31px;
+        left: 214px;
+        align-items: flex-start;
+        width: 986px;
+        height: 287px;
+
+        .a {
+          margin: 13px 0px 0px;
+          line-height: 18px;
+          letter-spacing: 0;
+          color: #f5c600;
+          font-family: "Font Awesome 5 Free", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 16px;
+        }
+
+        .superFastWithdrawals {
+          width: 242px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 20px;
+          font-weight: 700;
+        }
+
+        .autoWrapper32 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+
+          .testimonials {
+            width: 342px;
+            letter-spacing: 0;
+            color: #a90000;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            font-weight: 700;
+          }
+
+          .autoWrapper31 {
+            display: flex;
+            align-items: center;
+            align-self: stretch;
+            margin-top: 44px;
+            padding-right: 0;
+            padding-left: 34px;
+
+            .autoWrapper30 {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              align-self: stretch;
+
+              .sQueenVipWitdrawalIs {
+                margin: 44px 0px 0px;
+                width: 284px;
+                height: 84px;
+                letter-spacing: 0;
+                color: #00000080;
+                font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+              }
+            }
+
+            .line8 {
+              margin-left: -72px;
+              background: #000000;
+              width: 183px;
+              height: 1px;
+              rotate: 91deg;
+            }
+          }
+        }
+
+        .autoWrapper33 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+          margin-top: 104px;
+          margin-left: -61px;
+
+          .theBestPlatformIVeEx {
+            margin: 20px 0px 0px;
+            width: 284px;
+            height: 82px;
+            letter-spacing: 0;
+            color: #00000080;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+          }
+
+          .a2 {
+            margin: 15px 0px 0px;
+            line-height: 18px;
+            letter-spacing: 0;
+            color: #f5c600;
+            font-family: "Font Awesome 5 Free", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+          }
+        }
+
+        .line9 {
+          margin-top: 194px;
+          margin-left: -71px;
+          background: #000000;
+          width: 180px;
+          height: 1px;
+          rotate: 90deg;
+        }
+
+        .autoWrapper34 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+          margin-top: 104px;
+          margin-left: -59px;
+
+          .myExperienceOfDeposi {
+            margin: 20px 0px 0px;
+            width: 284px;
+            height: 84px;
+            letter-spacing: 0;
+            color: #00000080;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+
+    .footerSeo {
+      display: flex;
+      align-items: center;
+      align-self: stretch;
+      margin-right: 4px;
+      margin-left: 5px;
+      padding: 49px 93px 49px 92px;
+
+      .bg {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: flex-start;
+        border-radius: 10px;
+        background: #f5f5f5;
+        padding: 34px 103px 37px 105px;
+
+        .wHychoosesqueenvip {
+          margin: 0px 0px 0px 338px;
+          line-height: 30px;
+          letter-spacing: 0;
+          color: #a90000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 25px;
+          font-weight: 700;
+        }
+
+        .welcomeToSqueenvipTr2 {
+          margin: 14px 0px 0px 198px;
+          line-height: 20px;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 16px;
+        }
+
+        .malaysianPlayersPref {
+          margin: 32px 0px 0px;
+          width: 1046px;
+          height: 84px;
+          text-align: center;
+          letter-spacing: 0;
+          color: #000000;
+          font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 16px;
+        }
+
+        .autoWrapper35 {
+          position: relative;
+          margin-top: 47px;
+          margin-left: 775px;
+          width: 272px;
+          height: 352px;
+
+          .bonusBoxGraphic {
+            width: 272px;
+            height: 206px;
+          }
+
+          .footerIcon04 {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 272px;
+            height: 352px;
+
+            .bonusPromotion {
+              margin: 34px 0px 0px 30px;
+              width: 230px;
+              height: 29px;
+              text-align: center;
+              letter-spacing: 0;
+              color: #000000;
+              font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 20px;
+              font-weight: 700;
+            }
+
+            .welcomeBonusReloadBo {
+              margin: 8px 0px 0px 30px;
+              width: 230px;
+              height: 75px;
+              text-align: center;
+              letter-spacing: 0;
+              color: #000000;
+              font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 16px;
+            }
+          }
+
+          .footerIcon03 {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: -258px;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 272px;
+            height: 352px;
+
+            .bankingMethod {
+              margin: 34px 0px 0px 22px;
+              width: 230px;
+              height: 29px;
+              text-align: center;
+              letter-spacing: 0;
+              color: #000000;
+              font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 20px;
+              font-weight: 700;
+            }
+
+            .quickpayBankTransfer {
+              margin: 8px 0px 0px 22px;
+              width: 230px;
+              height: 75px;
+              text-align: center;
+              letter-spacing: 0;
+              color: #000000;
+              font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 16px;
+            }
+          }
+
+          .footerIcon02 {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: -516px;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 272px;
+            height: 352px;
+
+            .minimumDeposit {
+              margin: 34px 0px 0px 13px;
+              width: 230px;
+              height: 29px;
+              text-align: center;
+              letter-spacing: 0;
+              color: #000000;
+              font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 20px;
+              font-weight: 700;
+            }
+
+            .rM10QrPayPayEssence {
+              margin: 8px 0px 0px 13px;
+              width: 230px;
+              height: 75px;
+              text-align: center;
+              letter-spacing: 0;
+              color: #000000;
+              font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 16px;
+            }
+          }
+
+          .footerIcon01 {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: -774px;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 272px;
+            height: 352px;
+
+            .security {
+              margin: 34px 0px 0px 8px;
+              width: 230px;
+              height: 29px;
+              text-align: center;
+              letter-spacing: 0;
+              color: #000000;
+              font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 20px;
+              font-weight: 700;
+            }
+
+            .gamingCuracao2Fa128E {
+              margin: 8px 0px 0px 8px;
+              width: 230px;
+              height: 75px;
+              text-align: center;
+              letter-spacing: 0;
+              color: #000000;
+              font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 16px;
+            }
+          }
+        }
+
+        .sQueenvipPartnership {
+          margin: 66px 0px 0px 9px;
+          width: 1013px;
+          height: 132px;
+          letter-spacing: 0;
+          color: #000000;
+          font-size: 0;
+        }
+
+        .whyPlayersTrustSquee {
+          margin: 25px 0px 0px 9px;
+          width: 1017px;
+          height: 259px;
+          letter-spacing: 0;
+          color: #000000;
+          font-size: 0;
+        }
+
+        .exclusiveSqueenvipPa {
+          margin: 30px 0px 0px 9px;
+          width: 1017px;
+          height: 282px;
+          letter-spacing: 0;
+          color: #000000;
+          font-size: 0;
+        }
+
+        .fAQs {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+          margin: 25px 21px 0px 9px;
+
+          .a3 {
+            width: 18px;
+            height: 22px;
+            letter-spacing: 0;
+            color: #000000;
+            font-family: "Font Awesome 6 Free", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 20px;
+          }
+
+          .whichOnlineCasinoOff {
+            width: 829px;
+            height: 22px;
+            letter-spacing: 0;
+            color: #000000;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+          }
+
+          .frequentlyAskedQuest {
+            line-height: 30px;
+            letter-spacing: 0;
+            color: #000000;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            font-weight: 700;
+          }
+
+          .rectangle37 {
+            display: flex;
+            align-items: center;
+            align-self: stretch;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-right: 4px;
+            border-radius: 20px;
+            background: #d9d9d9;
+            padding: 22px 35px 22px 34px;
+            min-width: 1013px;
+            height: 66px;
+          }
+
+          .sQueenvipPartnership2 {
+            margin: 20px 0px 0px 34px;
+            width: 983px;
+            height: 50px;
+            letter-spacing: 0;
+            color: #000000;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+          }
+
+          .rectangle38 {
+            display: flex;
+            align-items: center;
+            align-self: stretch;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-right: 4px;
+            border-radius: 20px;
+            background: #d9d9d9;
+            padding: 22px 35px 22px 34px;
+            min-width: 1013px;
+            height: 66px;
+          }
+
+          .theSafestCasinosAreT {
+            margin: 20px 0px 0px 34px;
+            width: 983px;
+            height: 60px;
+            letter-spacing: 0;
+            color: #000000;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    .rectangle64 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-self: stretch;
+      margin: 211px 8px 0px 1px;
+      background: #1e1e1e;
+      padding: 23px 204px 63px 202px;
+
+      .paymentGateway {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        margin-right: 37px;
+        margin-left: 4px;
+        min-width: 993px;
+        height: 56px;
+
+        .ethereum {
+          border-radius: 10px;
+          width: 112px;
+          height: 56px;
+        }
+
+        .bitcoin {
+          border-radius: 10px;
+          width: 110px;
+          height: 55px;
+        }
+
+        .uSdt {
+          border-radius: 10px;
+          width: 55px;
+          height: 55px;
+        }
+
+        .touchNGo {
+          border-radius: 10px;
+          width: 56px;
+          height: 56px;
+        }
+
+        .fPx {
+          border-radius: 10px;
+          width: 84px;
+          height: 56px;
+        }
+
+        .paynet {
+          border-radius: 10px;
+          width: 123px;
+          height: 56px;
+        }
+      }
+
+      .line82 {
+        margin-top: 12px;
+        margin-left: 4px;
+        background: #ffffff33;
+        width: 1013px;
+        height: 1px;
+      }
+
+      .regulationAwards {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        margin: 17px 17px 0px 4px;
+        padding-top: 11px;
+        padding-bottom: 6px;
+
+        .group34 {
+          display: flex;
+          align-items: center;
+          margin-top: 5px;
+
+          .group33 {
+            display: flex;
+            flex-grow: 1;
+            align-items: center;
+            opacity: 0.5;
+            padding-bottom: 1px;
+
+            .image14 {
+              width: 92px;
+              height: 19px;
+            }
+
+            .image15 {
+              margin-left: 28px;
+              width: 88px;
+              height: 31px;
+            }
+
+            .image16 {
+              margin-left: 28px;
+              width: 104px;
+              height: 30px;
+            }
+
+            .image17 {
+              margin-left: 28px;
+              width: 135px;
+              height: 26px;
+            }
+
+            .image18 {
+              margin-left: 29px;
+              width: 36px;
+              height: 34px;
+            }
+          }
+        }
+
+        .line7 {
+          margin-top: 20px;
+          margin-left: -6px;
+          background: #404040;
+          width: 61px;
+          height: 1px;
+          rotate: 90deg;
+        }
+
+        .group342 {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-left: -1px;
+          width: 390px;
+          min-width: 390px;
+          height: 44px;
+
+          .group31 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            opacity: 0.5;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            width: 179px;
+            min-width: 179px;
+            height: 44px;
+
+            .d94BjjhhHHh1 {
+              width: 87px;
+              height: 42px;
+            }
+
+            .line5 {
+              background: #4b4b4b;
+              width: 44px;
+              height: 1px;
+              rotate: 90deg;
+            }
+
+            .group30 {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              padding-bottom: 10px;
+
+              .image142 {
+                opacity: 0.5;
+                width: 34px;
+                height: 7px;
+              }
+
+              .autoWrapper36 {
+                position: relative;
+                margin-top: 1px;
+                width: 75px;
+                height: 18px;
+
+                .mAlaysia {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  opacity: 0.5;
+                  width: 75px;
+                  height: 18px;
+                  line-height: 18px;
+                  letter-spacing: 0;
+                  color: #b3bec1;
+                  font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+                  font-size: 15px;
+                  font-weight: 900;
+                }
+
+                .a2024 {
+                  position: absolute;
+                  bottom: -10px;
+                  left: 26px;
+                  opacity: 0.5;
+                  width: 23px;
+                  height: 12px;
+                  line-height: 12px;
+                  letter-spacing: 0;
+                  color: #b3bec1;
+                  font-family: Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+                  font-size: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .line4 {
+        margin-top: 16px;
+        margin-left: 4px;
+        background: #ffffff33;
+        width: 1013px;
+        height: 1px;
+      }
+
+      .sitemap {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        margin-top: 27px;
+        margin-left: 4px;
+        height: 243px;
+
+        .autoWrapper37 {
+          display: flex;
+          align-items: center;
+          align-self: stretch;
+          padding-right: 0;
+          padding-left: 0;
+
+          .casinoLiveCasinoReco2 {
+            line-height: 25px;
+            letter-spacing: 0;
+            color: #ffffff80;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 15px;
+          }
+
+          .casinoLiveCasinoReco {
+            letter-spacing: 0;
+            color: #ffffff;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+          }
+
+          .casinoLiveCasinoReco3 {
+            width: 181px;
+            height: 243px;
+            letter-spacing: 0;
+            color: #000000;
+            font-size: 0;
+          }
+
+          .sportsSportsbookLive {
+            margin: 0px 0px 0px 23px;
+            width: 181px;
+            height: 243px;
+            letter-spacing: 0;
+            color: #000000;
+            font-size: 0;
+          }
+
+          .joinOurCommunity3 {
+            margin: 0px 0px 0px 9px;
+            width: 228px;
+            height: 243px;
+            letter-spacing: 0;
+            color: #000000;
+            font-size: 0;
+
+            .joinOurCommunity {
+              letter-spacing: 0;
+              color: #ffffff4d;
+              font-family: "Font Awesome 6 Brands", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 30px;
+            }
+
+            .joinOurCommunity2 {
+              letter-spacing: 0;
+              color: #ffffff4d;
+              font-family: "Font Awesome 6 Brands", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+              font-size: 25px;
+            }
+          }
+        }
+
+        .line52 {
+          background: #ffffff33;
+          width: 1013px;
+          height: 1px;
+        }
+      }
+
+      .licenseItem {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        justify-content: space-between;
+        margin-top: 29px;
+        margin-right: 63px;
+        min-width: 971px;
+        height: 200px;
+
+        .autoWrapper38 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+
+          .squeenLogo1 {
+            margin-left: 4px;
+            width: 156px;
+            height: 50px;
+            overflow: hidden;
+          }
+
+          .theUltimateCryptoGam {
+            margin: 32px 0px 0px;
+            width: 450px;
+            height: 118px;
+            letter-spacing: 0;
+            color: #ffffff;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 10px;
+          }
+        }
+
+        .autoWrapper39 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+
+          .basicLargeValidSealA {
+            width: 57px;
+            height: 57px;
+          }
+
+          .sQueenvipIsOperatedB {
+            margin: 25px 0px 0px 3px;
+            width: 450px;
+            height: 118px;
+            letter-spacing: 0;
+            color: #ffffff;
+            font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+            font-size: 10px;
+          }
+        }
+      }
+
+      .line6 {
+        margin-top: 26px;
+        margin-left: 4px;
+        background: #ffffff33;
+        width: 1013px;
+        height: 1px;
+      }
+
+      .copyright2025MegaTec {
+        margin: 14px 0px 0px 275px;
+        text-align: center;
+        line-height: 15px;
+        letter-spacing: 0;
+        color: #ffffff;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      }
+    }
+  }
+}

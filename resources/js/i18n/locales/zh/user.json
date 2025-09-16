@@ -1,0 +1,72 @@
+{
+    "home": {
+        "hero": {
+            "title_part1": "领先的",
+            "title_highlight": "SaaS游戏平台",
+            "title_part2": "解决方案",
+            "subtitle": "为网站和应用程序提供完整的游戏化体验，包括转盘、砸蛋、刮刮卡等多种游戏类型。支持多租户架构，提供完整的API集成和管理后台。",
+            "ctaDemo": "免费演示",
+            "ctaLearnMore": "了解更多"
+        },
+        "features": {
+            "title": "平台核心功能",
+            "subtitle": "专为现代网站和应用程序设计的游戏化解决方案，提供完整的游戏管理和用户参与功能",
+            "card1": {
+                "title": "多样化游戏",
+                "text": "支持转盘、砸蛋、刮刮卡等多种游戏类型，满足不同场景需求，提升用户参与度和留存率。"
+            },
+            "card2": {
+                "title": "多租户架构",
+                "text": "支持多个网站独立运营，每个租户拥有独立的游戏配置、用户管理和数据分析功能。"
+            },
+            "card3": {
+                "title": "API集成",
+                "text": "提供完整的RESTful API接口，支持HMAC签名验证，确保数据传输安全，轻松集成到现有系统。"
+            },
+            "card4": {
+                "title": "数据分析",
+                "text": "实时游戏数据和用户行为分析，提供详细的统计报告，帮助优化游戏策略和用户体验。"
+            },
+            "card5": {
+                "title": "安全可靠",
+                "text": "HMAC签名验证机制，防止数据篡改和恶意攻击，确保游戏公平性和数据完整性。"
+            },
+            "card6": {
+                "title": "高性能",
+                "text": "优化的游戏引擎，支持高并发访问，99.9%系统可用性，确保游戏流畅运行。"
+            }
+        },
+        "stats": {
+            "title": "平台数据",
+            "subtitle": "值得信赖的游戏化解决方案",
+            "stat1": {
+                "label": "服务网站"
+            },
+            "stat2": {
+                "label": "系统可用性"
+            },
+            "stat3": {
+                "label": "技术支持"
+            }
+        },
+        "cta": {
+            "title": "开始您的游戏化之旅",
+            "subtitle": "立即体验我们的SaaS游戏平台，为您的网站带来全新的用户参与体验",
+            "ctaTry": "免费试用",
+            "ctaContact": "联系我们"
+        }
+    },
+    "nav": {
+        "home": "首页"
+    },
+    "guestLayout": {
+        "header": {
+            "logoAlt": "ONE TEAM SOLUTION 标志"
+        },
+        "footer": {
+            "brandName": "ONE TEAM",
+            "description": "ONE TEAM SOLUTION 是一家一站式解决方案营销机构。我们通过成熟的 SEO、SEM 和数字营销策略帮助企业在线发展。",
+            "copyright": "© 2024 ONE TEAM 数字营销机构。版权所有。"
+        }
+    }
+}

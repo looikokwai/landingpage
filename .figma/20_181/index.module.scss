@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+.section01 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px 220px 32px;
+  width: 1440px;
+  height: 325px;
+
+  .welcomeToSqueenvipTr {
+    margin: 0px 0px 0px 165px;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #000000;
+    font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .howToRegister {
+    margin: 7px 0px 0px 377px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #a90000;
+    font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .autoWrapper {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-right: 0;
+    padding-left: 0;
+
+    .makeADepositClaimYou {
+      margin: 1px 0px 0px;
+      width: 198px;
+      text-align: center;
+      letter-spacing: 0;
+      color: #000000;
+      font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .depositIcon01 {
+      width: 80px;
+      height: 80px;
+    }
+
+    .rectangle5 {
+      position: relative;
+      border: 2px solid #d8ac01;
+      border-radius: 10px;
+      width: 233px;
+      height: 150px;
+
+      .registerIcon01 {
+        position: absolute;
+        top: 14px;
+        left: 74px;
+        width: 80px;
+        height: 80px;
+      }
+
+      .clickSignUpFillInYou {
+        position: absolute;
+        top: 95px;
+        left: 15px;
+        width: 198px;
+        height: 34px;
+        text-align: center;
+        letter-spacing: 0;
+        color: #000000;
+        font-family: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .rectangle16 {
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        opacity: 0.5;
+        border: 2px solid #d8ac01;
+        border-radius: 10px;
+        width: 233px;
+        height: 150px;
+        filter: blur(2px);
+      }
+    }
+
+    .howToRegister02 {
+      position: relative;
+      width: 233px;
+      height: 150px;
+
+      .rectangle4 {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid #f5c600;
+        border-radius: 10px;
+        padding: 14px 16px 17px 15px;
+        width: 233px;
+        height: 150px;
+      }
+
+      .rectangle17 {
+        position: absolute;
+        top: 0;
+        left: 1px;
+        opacity: 0.5;
+        border: 2px solid #f5c600;
+        border-radius: 10px;
+        width: 233px;
+        height: 150px;
+        filter: blur(2px);
+      }
+    }
+
+    .howToRegister03 {
+      position: relative;
+      width: 233px;
+      height: 150px;
+
+      .rectangle15 {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid #a90000;
+        border-radius: 10px;
+        padding: 14px 16px 17px 15px;
+        width: 233px;
+        height: 150px;
+      }
+
+      .rectangle18 {
+        position: absolute;
+        top: 0;
+        left: 1px;
+        opacity: 0.5;
+        border: 2px solid #a90000;
+        border-radius: 10px;
+        width: 233px;
+        height: 150px;
+        filter: blur(2px);
+      }
+    }
+
+    .howToRegister04 {
+      position: relative;
+      width: 233px;
+      height: 150px;
+
+      .rectangle14 {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 1px;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid #8b0000;
+        border-radius: 10px;
+        padding: 14px 15px 17px 16px;
+        width: 233px;
+        height: 150px;
+      }
+
+      .rectangle19 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+        border: 2px solid #8b0000;
+        border-radius: 10px;
+        width: 233px;
+        height: 150px;
+        filter: blur(2px);
+      }
+    }
+  }
+
+  .progressiveBar {
+    margin-top: 16px;
+    margin-left: 106px;
+    width: 788px;
+    height: 20px;
+  }
+}

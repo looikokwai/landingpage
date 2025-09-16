@@ -1,0 +1,72 @@
+{
+    "home": {
+        "hero": {
+            "title_part1": "Penyelesaian",
+            "title_highlight": "Platform Permainan SaaS",
+            "title_part2": "Terkemuka",
+            "subtitle": "Menyediakan pengalaman gamifikasi lengkap untuk laman web dan aplikasi, termasuk pelbagai jenis permainan seperti roda putar, pecah telur, kad gores, dll. Menyokong seni bina berbilang penyewa, menyediakan integrasi API lengkap dan backend pengurusan.",
+            "ctaDemo": "Demo Percuma",
+            "ctaLearnMore": "Ketahui Lebih Lanjut"
+        },
+        "features": {
+            "title": "Ciri Teras Platform",
+            "subtitle": "Penyelesaian gamifikasi yang direka untuk laman web dan aplikasi moden, menyediakan pengurusan permainan dan fungsi penglibatan pengguna yang lengkap.",
+            "card1": {
+                "title": "Pelbagai Permainan",
+                "text": "Menyokong pelbagai jenis permainan seperti roda putar, pecah telur, dan kad gores untuk memenuhi keperluan senario yang berbeza, meningkatkan penyertaan dan pengekalan pengguna."
+            },
+            "card2": {
+                "title": "Seni Bina Berbilang Penyewa",
+                "text": "Menyokong operasi bebas pelbagai laman web, dengan setiap penyewa mempunyai konfigurasi permainan, pengurusan pengguna, dan fungsi analisis data yang bebas."
+            },
+            "card3": {
+                "title": "Integrasi API",
+                "text": "Menyediakan antara muka API RESTful yang lengkap dengan pengesahan tandatangan HMAC untuk memastikan penghantaran data yang selamat dan integrasi mudah ke dalam sistem sedia ada."
+            },
+            "card4": {
+                "title": "Analitis Data",
+                "text": "Data permainan masa nyata dan analisis tingkah laku pengguna, menyediakan laporan statistik terperinci untuk membantu mengoptimumkan strategi permainan dan pengalaman pengguna."
+            },
+            "card5": {
+                "title": "Selamat dan Boleh Dipercayai",
+                "text": "Mekanisme pengesahan tandatangan HMAC menghalang pengubahan data dan serangan berniat jahat, memastikan keadilan permainan dan integriti data."
+            },
+            "card6": {
+                "title": "Prestasi Tinggi",
+                "text": "Enjin permainan yang dioptimumkan menyokong akses serentak yang tinggi, dengan ketersediaan sistem 99.9%, memastikan operasi permainan yang lancar."
+            }
+        },
+        "stats": {
+            "title": "Data Platform",
+            "subtitle": "Penyelesaian gamifikasi yang boleh dipercayai",
+            "stat1": {
+                "label": "Laman Web Dilayan"
+            },
+            "stat2": {
+                "label": "Ketersediaan Sistem"
+            },
+            "stat3": {
+                "label": "Sokongan Teknikal"
+            }
+        },
+        "cta": {
+            "title": "Mulakan Perjalanan Gamifikasi Anda",
+            "subtitle": "Alami platform permainan SaaS kami sekarang dan bawa tahap penglibatan pengguna yang baharu ke laman web anda.",
+            "ctaTry": "Percubaan Percuma",
+            "ctaContact": "Hubungi Kami"
+        }
+    },
+    "nav": {
+        "home": "Laman Utama"
+    },
+    "guestLayout": {
+        "header": {
+            "logoAlt": "Logo ONE TEAM SOLUTION"
+        },
+        "footer": {
+            "brandName": "ONE TEAM",
+            "description": "ONE TEAM SOLUTION ialah Agensi Pemasaran Penyelesaian Sehenti. Kami membantu perniagaan berkembang dalam talian dengan strategi SEO, SEM dan pemasaran digital yang terbukti.",
+            "copyright": "© 2024 Agensi Pemasaran Digital ONE TEAM. Hak cipta terpelihara."
+        }
+    }
+}
