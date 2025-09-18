@@ -13,7 +13,6 @@ export default function HowToRegister() {
           mb: 4,
           fontWeight: 700,
           color: desktopViewColors.primary.red,
-          fontFamily: 'Montserrat',
           fontSize: '25px',
         }}
       >
@@ -22,7 +21,7 @@ export default function HowToRegister() {
 
       <Box sx={{ position: 'relative' }}>
         <Grid container spacing={{ xs: 2, md: 4 }} sx={{ mt: 2, justifyContent: 'center' }}>
-          <Grid item xs={6} md={3}>
+          <Grid size={{ xs: 6, md: 3 }}>
             <Box sx={{ position: 'relative', height: { xs: 160, md: 180 }, width: '100%', minWidth: { xs: 'auto', md: 250 }, maxWidth: { xs: 'auto', md: 250 }, mx: 'auto' }}>
               {/* Blur shadow */}
               <Box
@@ -64,7 +63,6 @@ export default function HowToRegister() {
                   sx={{
                     fontWeight: 500,
                     fontSize: { xs: '12px', md: '14px' },
-                    fontFamily: 'Montserrat',
                     textAlign: 'center',
                     px: 1,
                   }}
@@ -77,7 +75,7 @@ export default function HowToRegister() {
             </Box>
           </Grid>
 
-          <Grid item xs={6} md={3}>
+          <Grid size={{ xs: 6, md: 3 }}>
             <Box sx={{ position: 'relative', height: { xs: 160, md: 180 }, width: '100%', minWidth: { xs: 'auto', md: 250 }, maxWidth: { xs: 'auto', md: 250 }, mx: 'auto' }}>
               {/* Blur shadow */}
               <Box
@@ -119,7 +117,6 @@ export default function HowToRegister() {
                   sx={{
                     fontWeight: 500,
                     fontSize: { xs: '12px', md: '14px' },
-                    fontFamily: 'Montserrat',
                     textAlign: 'center',
                     px: 1,
                   }}
@@ -132,7 +129,7 @@ export default function HowToRegister() {
             </Box>
           </Grid>
 
-          <Grid item xs={6} md={3}>
+          <Grid size={{ xs: 6, md: 3 }}>
             <Box sx={{ position: 'relative', height: { xs: 160, md: 180 }, width: '100%', minWidth: { xs: 'auto', md: 250 }, maxWidth: { xs: 'auto', md: 250 }, mx: 'auto' }}>
               {/* Blur shadow */}
               <Box
@@ -174,7 +171,6 @@ export default function HowToRegister() {
                   sx={{
                     fontWeight: 500,
                     fontSize: { xs: '12px', md: '14px' },
-                    fontFamily: 'Montserrat',
                     textAlign: 'center',
                     px: 1,
                     lineHeight: 1.3,
@@ -188,7 +184,7 @@ export default function HowToRegister() {
             </Box>
           </Grid>
 
-          <Grid item xs={6} md={3}>
+          <Grid size={{ xs: 6, md: 3 }}>
             <Box sx={{ position: 'relative', height: { xs: 160, md: 180 }, width: '100%', minWidth: { xs: 'auto', md: 250 }, maxWidth: { xs: 'auto', md: 250 }, mx: 'auto' }}>
               {/* Blur shadow */}
               <Box
@@ -230,7 +226,6 @@ export default function HowToRegister() {
                   sx={{
                     fontWeight: 500,
                     fontSize: { xs: '12px', md: '14px' },
-                    fontFamily: 'Montserrat',
                     textAlign: 'center',
                     px: 1,
                     lineHeight: 1.3,

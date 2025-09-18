@@ -32,6 +32,10 @@ createInertiaApp({
     const pages = import.meta.glob('./Pages/**/*.jsx', { eager: true })
     const page = pages[`./Pages/${name}.jsx`]
 
+    if (!page) {
+      throw new Error(`Page component not found: ${name}`)
+    }
+
     // Automatically apply a layout based on the page name
     if (name.startsWith('Admin/')) {
       if (name !== 'Admin/Login') {

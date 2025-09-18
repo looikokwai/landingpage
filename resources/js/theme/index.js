@@ -14,11 +14,15 @@ export const desktopViewColors = {
   background: {
     main: '#ffffff',       // 背景色
     dark: '#1a1a1a',       // 深色背景
+    light: '#f8f9fa',      // 浅色背景
+    card: '#f5f5f5',       // 卡片背景
   },
   text: {
     primary: '#000000',    // 主要文字色
     secondary: '#b0b0b0',  // 次要文字色
     white: '#ffffff',      // 白色文字
+    muted: '#555555',      // 静音文字色
+    light: 'rgba(0, 0, 0, 0.7)', // 浅色文字
   },
   accent: {
     blue: '#4fc3f7',       // 蓝色强调色
@@ -26,14 +30,46 @@ export const desktopViewColors = {
   gradient: {
     primary: 'linear-gradient(135deg, #ff5252, #d84315)',     // 主要渐变
     primaryHover: 'linear-gradient(135deg, #ff6b6b, #ee5a24)', // 主要渐变悬停
+    cta: 'linear-gradient(90deg, #8B0000 0%, #DC143C 50%, #B22222 100%)', // CTA 渐变
+    gold: 'linear-gradient(45deg, #FFD700, #FFA500)', // 金色渐变
   },
   border: {
     dark: '#333333',       // 深色边框
+    light: '#e0e0e0',      // 浅色边框
+    card: '#e9ecef',       // 卡片边框
   },
   shadow: {
     light: '#00000026',    // 浅阴影
     medium: '#00000040',   // 中等阴影
+    card: '0 8px 25px rgba(0, 0, 0, 0.1)', // 卡片阴影
+    hover: '0 15px 35px rgba(0, 0, 0, 0.15)', // 悬停阴影
   },
+}
+
+// 统一字体配置
+export const typography = {
+  fontFamily: 'Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif',
+  fontFamilySans: 'Montserrat, sans-serif',
+  fontFamilyMono: 'Space Mono, monospace',
+}
+
+// 统一间距配置
+export const spacing = {
+  xs: '0.5rem',
+  sm: '1rem',
+  md: '1.5rem',
+  lg: '2rem',
+  xl: '3rem',
+  xxl: '4rem',
+}
+
+// 统一断点配置
+export const breakpoints = {
+  xs: 0,
+  sm: 600,
+  md: 900,
+  lg: 1200,
+  xl: 1536,
 }
 
 // 创建 MUI 主题配置
@@ -83,13 +119,13 @@ export const theme = createTheme({
   },
   typography: {
     fontFamily: [
-      'Inter',
-      '-apple-system',
-      'BlinkMacSystemFont',
-      '"Segoe UI"',
-      'Roboto',
-      '"Helvetica Neue"',
+      'Montserrat',
+      '"PingFang SC"',
+      '"Hiragino Sans GB"',
+      '"Microsoft YaHei"',
+      'SimHei',
       'Arial',
+      'Helvetica',
       'sans-serif',
     ].join(','),
     h1: {

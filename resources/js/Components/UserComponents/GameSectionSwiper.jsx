@@ -7,7 +7,7 @@ import { Box, Container, Typography, Card, CardMedia, CardContent, Button, useTh
 import 'swiper/css'
 import 'swiper/css/navigation'
 
-const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
+const GameSectionSwiper = ({ title, games, displayDetails = true, isPartnership = false }) => {
   const theme = useTheme()
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
 
@@ -24,7 +24,6 @@ const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
           fontWeight: 700,
           fontSize: { xs: '18px', md: '20px' },
           color: '#a90000',
-          fontFamily: 'Montserrat, sans-serif',
         }}
       >
         {title}
@@ -32,8 +31,8 @@ const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
 
       <Swiper
         modules={[Navigation, Autoplay]}
-        spaceBetween={20}
-        slidesPerView={1}
+        spaceBetween={isPartnership ? 20 : 15}
+        slidesPerView={isPartnership ? 2 : 2.5}
         navigation={{
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
@@ -42,8 +41,25 @@ const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
         //   delay: 3000,
         //   disableOnInteraction: false,
         // }}
-        loop={true}
-        breakpoints={{
+        loop={!isPartnership}
+        breakpoints={isPartnership ? {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+          1280: {
+            slidesPerView: 4,
+            spaceBetween: 60,
+          },
+        } : {
           640: {
             slidesPerView: 2,
             spaceBetween: 20,
@@ -61,7 +77,7 @@ const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
             spaceBetween: 40,
           },
         }}
-        style={{ paddingBottom: '50px' }}
+        style={{ paddingBottom: '10px' }}
       >
         {games.map((game, index) => (
           <SwiperSlide key={index}>
@@ -82,10 +98,7 @@ const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
                   alt={game.name}
                   sx={{
                     width: '100%',
-                    height: '150px',
                     objectFit: 'cover',
-                    borderRadius: '10px',
-                    boxShadow: '2px 2px 4px rgba(0,0,0,0.25)',
                   }}
                 />
 
@@ -102,7 +115,6 @@ const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
                       padding: '4px 14px',
                       fontSize: '10px',
                       fontWeight: 700,
-                      fontFamily: 'Montserrat, sans-serif',
                       boxShadow: '5px 5px 5px rgba(0,0,0,0.25)',
                     }}
                   >
@@ -120,7 +132,6 @@ const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
                       fontWeight: 700,
                       fontSize: '14px',
                       color: '#000000',
-                      fontFamily: 'Montserrat, sans-serif',
                       lineHeight: '17px',
                     }}
                   >
@@ -128,20 +139,22 @@ const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
                   </Typography>
 
                   {/* 状态标签 */}
-                  <Box
-                    sx={{
-                      backgroundColor: game.status === 'Hot' ? '#a90000' : '#ff0000',
-                      color: '#ffffff',
-                      borderRadius: '100px',
-                      padding: '3px 8px 5px',
-                      fontSize: '10px',
-                      fontWeight: 700,
-                      fontFamily: 'Montserrat, sans-serif',
-                      ml: 1,
-                    }}
-                  >
-                    {game.status}
-                  </Box>
+                  {game.status !== 'none' && (
+                    <Box
+                      sx={{
+                        backgroundColor: game.status === 'hot' ? '#ff0000' : '#a90000', // hot: 鲜红色, new: 暗红色
+                        color: '#ffffff',
+                        borderRadius: '100px',
+                        padding: '3px 8px 5px',
+                        fontSize: '10px',
+                        fontWeight: 700,
+                        ml: 1,
+                        textTransform: 'uppercase',
+                      }}
+                    >
+                      {game.status}
+                    </Box>
+                  )}
                 </Box>
               )}
 
@@ -153,7 +166,6 @@ const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
                     opacity: 0.5,
                     fontSize: '12px',
                     color: '#000000',
-                    fontFamily: 'Montserrat, sans-serif',
                     lineHeight: '15px',
                   }}
                 >
@@ -176,7 +188,6 @@ const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
                 backgroundSize: '40px 40px !important',
                 width: '40px !important',
                 height: '40px !important',
-                marginTop: '0 !important',
                 backgroundColor: 'white !important',
                 borderRadius: '50% !important',
                 boxShadow: '0 4px 12px rgba(0,0,0,0.15) !important',
@@ -195,7 +206,6 @@ const GameSectionSwiper = ({ title, games, displayDetails = true }) => {
                 backgroundSize: '40px 40px !important',
                 width: '40px !important',
                 height: '40px !important',
-                marginTop: '0 !important',
                 backgroundColor: 'white !important',
                 borderRadius: '50% !important',
                 boxShadow: '0 4px 12px rgba(0,0,0,0.15) !important',

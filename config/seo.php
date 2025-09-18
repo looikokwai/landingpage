@@ -10,9 +10,9 @@ return [
     | own SEO settings.
     |
     */
-    'default_title' => 'ONE TEAM SOLUTION Digital Marketing Agency',
-    'default_description' => 'One-Stop Solutions Marketing Agency based in Kuala Lumpur, Malaysia.',
-    'default_keywords' => 'digital marketing, seo, web design, malaysia',
+    'default_title' => 'SQUEEN VIP - Trusted Online Casino in Malaysia',
+    'default_description' => 'SQUEEN VIP is Malaysia\'s most trusted online casino since 2012. Enjoy sports betting, live casino, online slots, fishing games, lottery, and esports with free credit no deposit offers.',
+    'default_keywords' => 'SQUEEN VIP, online casino Malaysia, sports betting, live casino, online slots, fishing games, lottery, esports, free credit no deposit, trusted casino',
     'logo' => '/images/logo.png',
 
     /*
@@ -27,33 +27,35 @@ return [
     'json_ld' => [
         '@context' => 'https://schema.org',
         '@type' => 'Organization',
-        'name' => 'ONE TEAM SOLUTION Digital Marketing Agency',
+        'name' => 'SQUEEN VIP',
         'url' => env('APP_URL', 'http://localhost'),
         'logo' => env('APP_URL', 'http://localhost') . '/images/logo.png',
-        'description' => 'One-Stop Solutions Marketing Agency based in Kuala Lumpur, Malaysia.',
+        'description' => 'SQUEEN VIP is Malaysia\'s most trusted online casino since 2012, offering sports betting, live casino, online slots, fishing games, lottery, and esports with free credit no deposit offers.',
         'address' => [
             '@type' => 'PostalAddress',
-            'streetAddress' => 'Suite A, Level 15, Menara TH Perdana, 1004 Jalan Sultan Ismail',
-            'addressLocality' => 'Kuala Lumpur',
-            'postalCode' => '50250',
+            'addressLocality' => 'Malaysia',
             'addressCountry' => 'MY',
         ],
         'contactPoint' => [
             '@type' => 'ContactPoint',
-            'telephone' => '+60-3-1234-5678',
             'contactType' => 'customer service',
-            'email' => 'hello@oneteamsolution.com',
+            'email' => 'support@squeenvip.com',
         ],
         'sameAs' => [
-            'https://www.facebook.com/oneteamsolution',
-            'https://www.linkedin.com/company/oneteamsolution',
-            'https://www.instagram.com/oneteamsolution',
+            'https://www.facebook.com/squeenvip',
+            'https://www.instagram.com/squeenvip',
+            'https://www.twitter.com/squeenvip',
         ],
-        'foundingDate' => '2008',
-        'numberOfEmployees' => '70+',
+        'foundingDate' => '2012',
         'serviceArea' => [
             '@type' => 'Place',
             'name' => 'Malaysia',
+        ],
+        'offers' => [
+            '@type' => 'Offer',
+            'name' => 'Free Credit No Deposit Casino Games',
+            'description' => 'Enjoy top casino games with free credit no deposit offers',
+            'category' => 'Online Casino Games',
         ],
     ],
 ];

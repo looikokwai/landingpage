@@ -1,71 +1,84 @@
 import React from 'react'
-import { Box, Typography, Container } from '@mui/material'
-import { desktopViewColors } from '../../theme'
+import { Box, Typography, Container, Paper, useTheme } from '@mui/material'
+import { desktopViewColors } from '../../theme';
+import CampaignIcon from '@mui/icons-material/Campaign';
 
-export default function MarqueeWelcome() {
+export default function MarqueeWelcome({ marqueeTexts }) {
+  const theme = useTheme();
+
+  if (!marqueeTexts || marqueeTexts.length === 0) {
+    return null;
+  }
+
+  const combinedText = marqueeTexts.map(t => t.text).join('  •  ');
+  const duration = combinedText.length * 0.3;
+
   return (
     <Container maxWidth='lg'>
-      <Box sx={{ position: 'relative', mt: 3, mb: 2 }}>
-        {/* Blur shadow */}
-        <Box
-          sx={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: '100%',
-            height: '100%',
-            borderRadius: '10px',
-            opacity: 0.5,
-            filter: 'blur(2px)',
-            zIndex: 0,
-          }}
-        />
-        {/* Main container */}
-        <Box
-          sx={{
-            position: 'relative',
-            overflow: 'hidden',
-            whiteSpace: 'nowrap',
-            textAlign: 'center',
-            width: '100%',
-            zIndex: 1,
-            py: 2,
-          }}
-        >
-          <Typography
-            variant='body1'
+      <Paper
+        elevation={0}
+        sx={{
+          position: 'relative',
+          mt: 3,
+          mb: 2,
+          overflow: 'hidden',
+          borderRadius: '10px',
+          border: `1px solid ${theme.palette.divider}`,
+          p: 1.5,
+          display: 'flex',
+          alignItems: 'center',
+          gap: 2,
+          backgroundColor: theme.palette.background.paper
+        }}
+      >
+        <CampaignIcon sx={{ color: desktopViewColors.primary.darkRed }} />
+        <Box sx={{ overflow: 'hidden', flex: 1 }}>
+          <Box
             sx={{
-              display: 'inline-block',
-              animation: 'marquee 20s linear infinite',
-              fontFamily: 'Montserrat',
-              fontSize: '16px',
-              fontWeight: 500,
-              color: desktopViewColors.text.primary,
-              paddingLeft: '100%',
+              display: 'flex',
+              width: '200%',
+              animation: `marquee ${duration}s linear infinite`,
               willChange: 'transform',
               '@keyframes marquee': {
                 '0%': {
                   transform: 'translateX(0%)',
                 },
                 '100%': {
-                  transform: 'translateX(-100%)',
+                  transform: 'translateX(-50%)',
                 },
               },
-              // 响应式调整
-              '@media (max-width: 768px)': {
-                fontSize: '14px',
-                animation: 'marquee 25s linear infinite',
-              },
-              // 鼠标悬停时暂停动画
               '&:hover': {
                 animationPlayState: 'paused',
               },
             }}
           >
-            Welcome to SQUEEN VIP - Trusted Online Casino in Malaysia since 2012
-          </Typography>
+            <Typography
+              variant='body1'
+                            sx={{
+                width: '50%', // 每个文本块占一半
+                whiteSpace: 'nowrap',
+                fontSize: { xs: '14px', md: '16px' },
+                fontWeight: 500,
+                color: desktopViewColors.primary.darkRed,
+              }}
+            >
+              {combinedText}
+            </Typography>
+            <Typography
+              variant='body1'
+                            sx={{
+                width: '50%', // 每个文本块占一半
+                whiteSpace: 'nowrap',
+                fontSize: { xs: '14px', md: '16px' },
+                fontWeight: 500,
+                color: desktopViewColors.primary.darkRed,
+              }}
+            >
+              {combinedText}
+            </Typography>
+          </Box>
         </Box>
-      </Box>
+      </Paper>
     </Container>
   )
 }

@@ -47,17 +47,30 @@ class PermissionSeeder extends Seeder
             'roles.edit',
             'roles.delete',
 
-            // 任务管理权限
-            'tasks.view',
-            'tasks.create',
-            'tasks.edit',
-            'tasks.delete',
+            // Marquee Texts 管理权限
+            'marquee_texts.view',
+            'marquee_texts.create',
+            'marquee_texts.edit',
+            'marquee_texts.delete',
 
-            // 特殊任务管理权限
-            'special_tasks.view',
-            'special_tasks.create',
-            'special_tasks.edit',
-            'special_tasks.delete',
+            // Banner Images 管理权限
+            'banner_images.view',
+            'banner_images.create',
+            'banner_images.edit',
+            'banner_images.delete',
+
+            // Winners Leaderboard 管理权限
+            'winners_leaderboard.view',
+            'winners_leaderboard.create',
+            'winners_leaderboard.edit',
+            'winners_leaderboard.delete',
+
+            // Game Sections 管理权限
+            'game_sections.view',
+            'game_sections.create',
+            'game_sections.edit',
+            'game_sections.delete',
+
         ];
 
         // 批量创建权限
@@ -105,21 +118,27 @@ class PermissionSeeder extends Seeder
             'subadmins.edit',
             'permissions.view',
             'roles.view',
-            'tasks.view',
-            'tasks.create',
-            'tasks.edit',
-            'tasks.delete',
-            'special_tasks.view',
-            'special_tasks.create',
-            'special_tasks.edit',
-            'special_tasks.delete',
+            'marquee_texts.view',
+            'marquee_texts.create',
+            'marquee_texts.edit',
+            'marquee_texts.delete',
+            'banner_images.view',
+            'banner_images.create',
+            'banner_images.edit',
+            'banner_images.delete',
+            'winners_leaderboard.view',
+            'winners_leaderboard.create',
+            'winners_leaderboard.edit',
+            'winners_leaderboard.delete',
+            'game_sections.view',
+            'game_sections.create',
+            'game_sections.edit',
+            'game_sections.delete',
         ]);
 
         // 为 subadmin 分配有限权限
         $subadmin->syncPermissions([
             'users.view',
-            'tasks.view',
-            'special_tasks.view',
         ]);
 
         $this->command->info('Permissions and roles created successfully.');

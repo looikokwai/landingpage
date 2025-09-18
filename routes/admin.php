@@ -6,8 +6,6 @@ use App\Http\Controllers\Admin\LoginController;
 use App\Http\Controllers\Admin\PermissionController;
 use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\Admin\SubAdminController;
-use App\Http\Controllers\Admin\TaskController;
-use App\Http\Controllers\Admin\SpecialTaskController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('lgk6joswmtyvdxf')->name('admin.')->group(function () {
@@ -102,43 +100,80 @@ Route::prefix('lgk6joswmtyvdxf')->name('admin.')->group(function () {
             Route::delete('roles/{role}', [RoleController::class, 'destroy'])->name('roles.destroy');
         });
 
-        // 任务管理路由
-        Route::middleware('check.permission:tasks.view')->group(function () {
-            Route::get('tasks', [TaskController::class, 'index'])->name('tasks.index');
+        // Marquee Texts 管理路由
+        Route::middleware('check.permission:marquee_texts.view')->group(function () {
+            Route::get('marquee-texts', [\App\Http\Controllers\Admin\MarqueeTextController::class, 'index'])->name('marquee-texts.index');
         });
 
-        Route::middleware('check.permission:tasks.create')->group(function () {
-            Route::get('tasks/create', [TaskController::class, 'create'])->name('tasks.create');
-            Route::post('tasks', [TaskController::class, 'store'])->name('tasks.store');
+        Route::middleware('check.permission:marquee_texts.create')->group(function () {
+            Route::get('marquee-texts/create', [\App\Http\Controllers\Admin\MarqueeTextController::class, 'create'])->name('marquee-texts.create');
+            Route::post('marquee-texts', [\App\Http\Controllers\Admin\MarqueeTextController::class, 'store'])->name('marquee-texts.store');
         });
 
-        Route::middleware('check.permission:tasks.edit')->group(function () {
-            Route::get('tasks/{task}/edit', [TaskController::class, 'edit'])->name('tasks.edit');
-            Route::put('tasks/{task}', [TaskController::class, 'update'])->name('tasks.update');
+        Route::middleware('check.permission:marquee_texts.edit')->group(function () {
+            Route::get('marquee-texts/{marqueeText}/edit', [\App\Http\Controllers\Admin\MarqueeTextController::class, 'edit'])->name('marquee-texts.edit');
+            Route::put('marquee-texts/{marqueeText}', [\App\Http\Controllers\Admin\MarqueeTextController::class, 'update'])->name('marquee-texts.update');
         });
 
-        Route::middleware('check.permission:tasks.delete')->group(function () {
-            Route::delete('tasks/{task}', [TaskController::class, 'destroy'])->name('tasks.destroy');
+        Route::middleware('check.permission:marquee_texts.delete')->group(function () {
+            Route::delete('marquee-texts/{marqueeText}', [\App\Http\Controllers\Admin\MarqueeTextController::class, 'destroy'])->name('marquee-texts.destroy');
         });
 
-        // 特殊任务管理路由
-        Route::middleware('check.permission:special_tasks.view')->group(function () {
-            Route::get('special-tasks', [SpecialTaskController::class, 'index'])->name('special-tasks.index');
+        // Banner Images 管理路由
+        Route::middleware('check.permission:banner_images.view')->group(function () {
+            Route::get('banner-images', [\App\Http\Controllers\Admin\BannerImageController::class, 'index'])->name('banner-images.index');
         });
 
-        Route::middleware('check.permission:special_tasks.create')->group(function () {
-            Route::get('special-tasks/create', [SpecialTaskController::class, 'create'])->name('special-tasks.create');
-            Route::post('special-tasks', [SpecialTaskController::class, 'store'])->name('special-tasks.store');
+        Route::middleware('check.permission:banner_images.create')->group(function () {
+            Route::get('banner-images/create', [\App\Http\Controllers\Admin\BannerImageController::class, 'create'])->name('banner-images.create');
+            Route::post('banner-images', [\App\Http\Controllers\Admin\BannerImageController::class, 'store'])->name('banner-images.store');
         });
 
-        Route::middleware('check.permission:special_tasks.edit')->group(function () {
-            Route::get('special-tasks/{task}/edit', [SpecialTaskController::class, 'edit'])->name('special-tasks.edit');
-            Route::put('special-tasks/{task}', [SpecialTaskController::class, 'update'])->name('special-tasks.update');
+        Route::middleware('check.permission:banner_images.edit')->group(function () {
+            Route::get('banner-images/{bannerImage}/edit', [\App\Http\Controllers\Admin\BannerImageController::class, 'edit'])->name('banner-images.edit');
+            Route::put('banner-images/{bannerImage}', [\App\Http\Controllers\Admin\BannerImageController::class, 'update'])->name('banner-images.update');
         });
 
-        Route::middleware('check.permission:special_tasks.delete')->group(function () {
-            Route::delete('special-tasks/{task}', [SpecialTaskController::class, 'destroy'])->name('special-tasks.destroy');
+        Route::middleware('check.permission:banner_images.delete')->group(function () {
+            Route::delete('banner-images/{bannerImage}', [\App\Http\Controllers\Admin\BannerImageController::class, 'destroy'])->name('banner-images.destroy');
         });
 
+        // Winners Leaderboard 管理路由
+        Route::middleware('check.permission:winners_leaderboard.view')->group(function () {
+            Route::get('winners-leaderboard', [\App\Http\Controllers\Admin\WinnersLeaderboardController::class, 'index'])->name('winners-leaderboard.index');
+        });
+
+        Route::middleware('check.permission:winners_leaderboard.create')->group(function () {
+            Route::get('winners-leaderboard/create', [\App\Http\Controllers\Admin\WinnersLeaderboardController::class, 'create'])->name('winners-leaderboard.create');
+            Route::post('winners-leaderboard', [\App\Http\Controllers\Admin\WinnersLeaderboardController::class, 'store'])->name('winners-leaderboard.store');
+        });
+
+        Route::middleware('check.permission:winners_leaderboard.edit')->group(function () {
+            Route::get('winners-leaderboard/{winnersLeaderboard}/edit', [\App\Http\Controllers\Admin\WinnersLeaderboardController::class, 'edit'])->name('winners-leaderboard.edit');
+            Route::put('winners-leaderboard/{winnersLeaderboard}', [\App\Http\Controllers\Admin\WinnersLeaderboardController::class, 'update'])->name('winners-leaderboard.update');
+        });
+
+        Route::middleware('check.permission:winners_leaderboard.delete')->group(function () {
+            Route::delete('winners-leaderboard/{winnersLeaderboard}', [\App\Http\Controllers\Admin\WinnersLeaderboardController::class, 'destroy'])->name('winners-leaderboard.destroy');
+        });
+
+        // Game Sections 管理路由
+        Route::middleware('check.permission:game_sections.view')->group(function () {
+            Route::get('game-sections', [\App\Http\Controllers\Admin\GameSectionController::class, 'index'])->name('game-sections.index');
+        });
+
+        Route::middleware('check.permission:game_sections.create')->group(function () {
+            Route::get('game-sections/create', [\App\Http\Controllers\Admin\GameSectionController::class, 'create'])->name('game-sections.create');
+            Route::post('game-sections', [\App\Http\Controllers\Admin\GameSectionController::class, 'store'])->name('game-sections.store');
+        });
+
+        Route::middleware('check.permission:game_sections.edit')->group(function () {
+            Route::get('game-sections/{gameSection}/edit', [\App\Http\Controllers\Admin\GameSectionController::class, 'edit'])->name('game-sections.edit');
+            Route::put('game-sections/{gameSection}', [\App\Http\Controllers\Admin\GameSectionController::class, 'update'])->name('game-sections.update');
+        });
+
+        Route::middleware('check.permission:game_sections.delete')->group(function () {
+            Route::delete('game-sections/{gameSection}', [\App\Http\Controllers\Admin\GameSectionController::class, 'destroy'])->name('game-sections.destroy');
+        });
     });
 });

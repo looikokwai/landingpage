@@ -87,6 +87,17 @@ class MenuService
                 'route' => 'admin.dashboard',
                 'order' => 1,
             ],
+            'content_management' => [
+                'name' => 'nav.content_management',
+                'icon' => 'content_copy',
+                'order' => 2,
+                'children' => [
+                    ['name' => 'nav.marquee_texts', 'route' => 'admin.marquee-texts.index', 'permission' => 'marquee_texts.view'],
+                    ['name' => 'nav.banner_images', 'route' => 'admin.banner-images.index', 'permission' => 'banner_images.view'],
+                    ['name' => 'nav.winners_leaderboard', 'route' => 'admin.winners-leaderboard.index', 'permission' => 'winners_leaderboard.view'],
+                    ['name' => 'nav.game_sections', 'route' => 'admin.game-sections.index', 'permission' => 'game_sections.view'],
+                ],
+            ],
             'admin_management' => [
                 'name' => 'nav.admin_management',
                 'icon' => 'admin',
@@ -94,15 +105,6 @@ class MenuService
                 'children' => [
                     ['name' => 'nav.admins_list', 'route' => 'admin.admins.index', 'permission' => 'admins.view'],
                     ['name' => 'nav.subadmins_list', 'route' => 'admin.sub-admins.index', 'permission' => 'subadmins.view'],
-                ],
-            ],
-            'task_management' => [
-                'name' => 'nav.task_management',
-                'icon' => 'assignment',
-                'order' => 7,
-                'children' => [
-                    ['name' => 'nav.tasks_list', 'route' => 'admin.tasks.index', 'permission' => 'tasks.view'],
-                    ['name' => 'nav.special_tasks_list', 'route' => 'admin.special-tasks.index', 'permission' => 'special_tasks.view'],
                 ],
             ],
             'access_control' => [

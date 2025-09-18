@@ -44,7 +44,6 @@ export default function WinnersLeaderboard({ data }) {
           fontSize: '25px',
           fontWeight: 700,
           color: '#a90000',
-          fontFamily: 'Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif',
           lineHeight: '30px',
           mb: 3,
         }}
@@ -113,7 +112,6 @@ export default function WinnersLeaderboard({ data }) {
                         fontSize: '14px',
                         fontWeight: activeTab === tab.id ? 700 : 400,
                         color: '#000000',
-                        fontFamily: 'Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif',
                         whiteSpace: 'nowrap'
                       }}
                     >
