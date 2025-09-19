@@ -10,6 +10,7 @@ import PartnershipSections from '../Components/UserComponents/PartnershipSection
 import Testimonial from '../Components/UserComponents/Testimonial'
 import FooterSeo from '../Components/UserComponents/FooterSeo'
 import CTABanner from '../Components/UserComponents/CTABanner'
+import FloatingContact from '../Components/FloatingContact';
 
 
 
@@ -56,6 +57,7 @@ export default function Home({ seo, marqueeTexts, bannerImages, winnersData, gam
       <Testimonial />
       <FooterSeo />
       <CTABanner />
+      <FloatingContact />
     </>
   )
 }

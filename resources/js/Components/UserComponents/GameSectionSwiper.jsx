@@ -177,46 +177,44 @@ const GameSectionSwiper = ({ title, games, displayDetails = true, isPartnership 
         ))}
 
         {/* 自定义导航按钮 */}
-        {!isMobile && (
-          <>
-            <Box
-              className='swiper-button-prev'
-              sx={{
-                backgroundImage: 'url("/images/icons/arrow-left.svg") !important',
-                backgroundRepeat: 'no-repeat !important',
-                backgroundPosition: 'center !important',
-                backgroundSize: '40px 40px !important',
-                width: '40px !important',
-                height: '40px !important',
-                backgroundColor: 'white !important',
-                borderRadius: '50% !important',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.15) !important',
-                transition: 'all 0.3s ease !important',
-                '&:hover': {
-                  transform: 'scale(1.1) !important',
-                },
-              }}
-            />
-            <Box
-              className='swiper-button-next'
-              sx={{
-                backgroundImage: 'url("/images/icons/arrow-right.svg") !important',
-                backgroundRepeat: 'no-repeat !important',
-                backgroundPosition: 'center !important',
-                backgroundSize: '40px 40px !important',
-                width: '40px !important',
-                height: '40px !important',
-                backgroundColor: 'white !important',
-                borderRadius: '50% !important',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.15) !important',
-                transition: 'all 0.3s ease !important',
-                '&:hover': {
-                  transform: 'scale(1.1) !important',
-                },
-              }}
-            />
-          </>
-        )}
+        <>
+          <Box
+            className='swiper-button-prev'
+            sx={{
+              backgroundImage: 'url("/images/icons/arrow-left.svg") !important',
+              backgroundRepeat: 'no-repeat !important',
+              backgroundPosition: 'center !important',
+              backgroundSize: { xs: '30px 30px', md: '40px 40px' },
+              width: { xs: '30px', md: '40px' },
+              height: { xs: '30px', md: '40px' },
+              backgroundColor: 'white !important',
+              borderRadius: '50% !important',
+              boxShadow: '0 4px 12px rgba(0,0,0,0.15) !important',
+              transition: 'all 0.3s ease !important',
+              '&:hover': {
+                transform: 'scale(1.1) !important',
+              },
+            }}
+          />
+          <Box
+            className='swiper-button-next'
+            sx={{
+              backgroundImage: 'url("/images/icons/arrow-right.svg") !important',
+              backgroundRepeat: 'no-repeat !important',
+              backgroundPosition: 'center !important',
+              backgroundSize: { xs: '30px 30px', md: '40px 40px' },
+              width: { xs: '30px', md: '40px' },
+              height: { xs: '30px', md: '40px' },
+              backgroundColor: 'white !important',
+              borderRadius: '50% !important',
+              boxShadow: '0 4px 12px rgba(0,0,0,0.15) !important',
+              transition: 'all 0.3s ease !important',
+              '&:hover': {
+                transform: 'scale(1.1) !important',
+              },
+            }}
+          />
+        </>
       </Swiper>
 
       {/* Custom pagination styles applied via CSS injection */}
